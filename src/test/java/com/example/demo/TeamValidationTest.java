@@ -13,8 +13,8 @@ public class TeamValidationTest {
     @Test
     public void validateTeamDetails() throws Exception {
 
-        // Read the contents of the JSON file
-        String jsonFilePath = System.getProperty("user.dir") + "\\assignment.txt";
+        // Read the contents of the JSON file assi
+        String jsonFilePath = System.getProperty("user.dir") + "\\players.json";
         byte[] jsonData = Files.readAllBytes(Paths.get(jsonFilePath));
 
         // Create a JSONObject from the JSON file contents
